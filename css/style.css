@@ -1,0 +1,251 @@
+/* Default Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+/* Header Styles */
+.header-container {
+  position: relative;
+}
+.header-center-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+  margin-top: 150px;
+  margin-right: 100px;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.header-title {
+  font-weight: 700;
+  font-size: 65px;
+  text-align: right;
+  color: #ffffff;
+}
+.header-description {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: right;
+  color: #ffffff;
+  margin-top: 24px;
+}
+.header-btn {
+  border: none;
+  text-align: right;
+  margin-top: 32px;
+}
+.btn {
+  border-radius: 5px;
+  border: none;
+}
+.header-btn a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: #005fac;
+  display: inline-block;
+  padding: 15px 20px;
+}
+/* Main Styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* Failure Styles */
+.failure-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 131px;
+}
+.failure-text {
+  margin-left: 87px;
+  margin-top: 130px;
+}
+.failure-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+.failure-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+}
+.failure-icon {
+  margin-top: 16px;
+}
+.failure-icon,
+.failure-description {
+  margin-bottom: 8px;
+}
+i {
+  color: #008000;
+}
+/* My Plans Styles */
+.plans-section {
+  margin-top: 130px;
+  margin-bottom: 150px;
+}
+.plans-title {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #151414;
+  margin-bottom: 50px;
+}
+.plans-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+.plans {
+  text-align: center;
+}
+.plans img {
+  width: 92.96px;
+  height: 92.96px;
+}
+.plans-sub-title {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #151414;
+  margin-bottom: 16px;
+}
+.plans-description {
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  color: #737272;
+}
+/* Courses Style Starts */
+.latest-course-title{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #151414;
+    margin-bottom: 100px;
+}
+.courses{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  .course .courses-banner img{
+      width: 224px;
+      height: 104px;
+  }
+  .course-detail .course-author a{
+    text-decoration: none;
+  }
+  .course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .fa-star{
+    font-size: 12px;
+  }
+  .fa-star.filled{
+    color: #FFC014;
+  }
+  .fa-star.empty{
+    color: #AEAEAE;
+  }
+  .course-duration{
+    background-color: #FFE4E8;
+    padding: 3px;
+    border-radius: 14px;
+  }
+  .course-duration, .fa-clock{
+    color: #FF4A60;
+  }
+  /* Courses Style Ends */
+
+/* Mindset Styles */
+.mindset {
+  background-image: linear-gradient(to right, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url('../images/watch.png');
+  border-radius: 8px;
+}
+.mindset-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  padding: 60px 0 0 65px;
+}
+.mindset-btn {
+  padding: 20px 0 60px 65px;
+}
+.btn a {
+  padding: 20px 35px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #005fac;
+}
+
+/* Footer Section Styles */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  background: #151414;
+  color: #ffffff;
+  margin-top: 130px;
+}
+.footer i {
+  color: #0000ff;
+  font-size: 40px;
+  margin-right: 20px;
+}
+.future-title {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 16px;
+}
+.future-description {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.email {
+  margin-bottom: 16px;
+}
+.phone {
+  margin-bottom: 32px;
+}
+.Subscribe-title {
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 31px;
+}
+input[type="email"] {
+  padding: 15px 20px;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 16px;
+}
+input[type="submit"] {
+  font-weight: 600;
+  font-size: 20px;
+  display: block;
+  padding: 15px 30px;
+  background: #005fac;
+  border-radius: 8px;
+  border: none;
+}
+input[type="submit"]:hover {
+  cursor: pointer;
+}
